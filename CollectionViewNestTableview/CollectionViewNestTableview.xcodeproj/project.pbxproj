@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EC403981FA86B7C008E1E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403971FA86B7C008E1E31 /* main.m */; };
+		7EC4039B1FA86B7C008E1E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4039A1FA86B7C008E1E31 /* AppDelegate.m */; };
+		7EC4039E1FA86B7C008E1E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4039D1FA86B7C008E1E31 /* ViewController.m */; };
+		7EC403A11FA86B7C008E1E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4039F1FA86B7C008E1E31 /* Main.storyboard */; };
+		7EC403A31FA86B7C008E1E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC403A21FA86B7C008E1E31 /* Assets.xcassets */; };
+		7EC403A61FA86B7C008E1E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC403A41FA86B7C008E1E31 /* LaunchScreen.storyboard */; };
+		7EC403B11FA86B7C008E1E31 /* CollectionViewNestTableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403B01FA86B7C008E1E31 /* CollectionViewNestTableviewTests.m */; };
+		7EC403BC1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403BB1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.m */; };
+		7EC403CC1FA87521008E1E31 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403CB1FA87521008E1E31 /* OrderModel.m */; };
+		7EC403CF1FA87530008E1E31 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403CE1FA87530008E1E31 /* FoodModel.m */; };
+		7EC403D21FA87EFD008E1E31 /* OrderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403D11FA87EFD008E1E31 /* OrderCollectionViewCell.m */; };
+		7EC403D51FA97CF4008E1E31 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC403D41FA97CF4008E1E31 /* FoodTableViewCell.m */; };
+		F133B338F2BFA26B358D9C03 /* libPods-CollectionViewNestTableview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8AE949FFE9C3C14319288A /* libPods-CollectionViewNestTableview.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EC403AD1FA86B7C008E1E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC4038B1FA86B7C008E1E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC403921FA86B7C008E1E31;
+			remoteInfo = CollectionViewNestTableview;
+		};
+		7EC403B81FA86B7C008E1E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC4038B1FA86B7C008E1E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC403921FA86B7C008E1E31;
+			remoteInfo = CollectionViewNestTableview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101624A1A7AD234B1679C04F /* Pods-CollectionViewNestTableview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewNestTableview.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewNestTableview/Pods-CollectionViewNestTableview.release.xcconfig"; sourceTree = "<group>"; };
+		7329DA628F2996E74D2C235D /* Pods-CollectionViewNestTableview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewNestTableview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionViewNestTableview/Pods-CollectionViewNestTableview.debug.xcconfig"; sourceTree = "<group>"; };
+		7EC403931FA86B7C008E1E31 /* CollectionViewNestTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewNestTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC403971FA86B7C008E1E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EC403991FA86B7C008E1E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EC4039A1FA86B7C008E1E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EC4039C1FA86B7C008E1E31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EC4039D1FA86B7C008E1E31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EC403A01FA86B7C008E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC403A21FA86B7C008E1E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC403A51FA86B7C008E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC403A71FA86B7C008E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC403AC1FA86B7C008E1E31 /* CollectionViewNestTableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewNestTableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC403B01FA86B7C008E1E31 /* CollectionViewNestTableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewNestTableviewTests.m; sourceTree = "<group>"; };
+		7EC403B21FA86B7C008E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC403B71FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewNestTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC403BB1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewNestTableviewUITests.m; sourceTree = "<group>"; };
+		7EC403BD1FA86B7C008E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC403C91FA870C2008E1E31 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		7EC403CA1FA87521008E1E31 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
+		7EC403CB1FA87521008E1E31 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		7EC403CD1FA87530008E1E31 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		7EC403CE1FA87530008E1E31 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		7EC403D01FA87EFD008E1E31 /* OrderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCollectionViewCell.h; sourceTree = "<group>"; };
+		7EC403D11FA87EFD008E1E31 /* OrderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCollectionViewCell.m; sourceTree = "<group>"; };
+		7EC403D31FA97CF4008E1E31 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		7EC403D41FA97CF4008E1E31 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		AB8AE949FFE9C3C14319288A /* libPods-CollectionViewNestTableview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CollectionViewNestTableview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EC403901FA86B7C008E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F133B338F2BFA26B358D9C03 /* libPods-CollectionViewNestTableview.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC403A91FA86B7C008E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC403B41FA86B7C008E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC4038A1FA86B7C008E1E31 = {
+			isa = PBXGroup;
+			children = (
+				7EC403951FA86B7C008E1E31 /* CollectionViewNestTableview */,
+				7EC403AF1FA86B7C008E1E31 /* CollectionViewNestTableviewTests */,
+				7EC403BA1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests */,
+				7EC403941FA86B7C008E1E31 /* Products */,
+				8F5C735C26D2A6F1F567EA3F /* Pods */,
+				FBE3AB7CC28A427100BFE912 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC403941FA86B7C008E1E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC403931FA86B7C008E1E31 /* CollectionViewNestTableview.app */,
+				7EC403AC1FA86B7C008E1E31 /* CollectionViewNestTableviewTests.xctest */,
+				7EC403B71FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC403951FA86B7C008E1E31 /* CollectionViewNestTableview */ = {
+			isa = PBXGroup;
+			children = (
+				7EC403991FA86B7C008E1E31 /* AppDelegate.h */,
+				7EC4039A1FA86B7C008E1E31 /* AppDelegate.m */,
+				7EC4039C1FA86B7C008E1E31 /* ViewController.h */,
+				7EC4039D1FA86B7C008E1E31 /* ViewController.m */,
+				7EC403D01FA87EFD008E1E31 /* OrderCollectionViewCell.h */,
+				7EC403D11FA87EFD008E1E31 /* OrderCollectionViewCell.m */,
+				7EC403D31FA97CF4008E1E31 /* FoodTableViewCell.h */,
+				7EC403D41FA97CF4008E1E31 /* FoodTableViewCell.m */,
+				7EC403CA1FA87521008E1E31 /* OrderModel.h */,
+				7EC403CB1FA87521008E1E31 /* OrderModel.m */,
+				7EC403CD1FA87530008E1E31 /* FoodModel.h */,
+				7EC403CE1FA87530008E1E31 /* FoodModel.m */,
+				7EC403C91FA870C2008E1E31 /* Define.h */,
+				7EC4039F1FA86B7C008E1E31 /* Main.storyboard */,
+				7EC403A21FA86B7C008E1E31 /* Assets.xcassets */,
+				7EC403A41FA86B7C008E1E31 /* LaunchScreen.storyboard */,
+				7EC403A71FA86B7C008E1E31 /* Info.plist */,
+				7EC403961FA86B7C008E1E31 /* Supporting Files */,
+			);
+			path = CollectionViewNestTableview;
+			sourceTree = "<group>";
+		};
+		7EC403961FA86B7C008E1E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EC403971FA86B7C008E1E31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EC403AF1FA86B7C008E1E31 /* CollectionViewNestTableviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC403B01FA86B7C008E1E31 /* CollectionViewNestTableviewTests.m */,
+				7EC403B21FA86B7C008E1E31 /* Info.plist */,
+			);
+			path = CollectionViewNestTableviewTests;
+			sourceTree = "<group>";
+		};
+		7EC403BA1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC403BB1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.m */,
+				7EC403BD1FA86B7C008E1E31 /* Info.plist */,
+			);
+			path = CollectionViewNestTableviewUITests;
+			sourceTree = "<group>";
+		};
+		8F5C735C26D2A6F1F567EA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7329DA628F2996E74D2C235D /* Pods-CollectionViewNestTableview.debug.xcconfig */,
+				101624A1A7AD234B1679C04F /* Pods-CollectionViewNestTableview.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBE3AB7CC28A427100BFE912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8AE949FFE9C3C14319288A /* libPods-CollectionViewNestTableview.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EC403921FA86B7C008E1E31 /* CollectionViewNestTableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC403C01FA86B7C008E1E31 /* Build configuration list for PBXNativeTarget "CollectionViewNestTableview" */;
+			buildPhases = (
+				5A881F6B3B74431BEF88D868 /* [CP] Check Pods Manifest.lock */,
+				7EC4038F1FA86B7C008E1E31 /* Sources */,
+				7EC403901FA86B7C008E1E31 /* Frameworks */,
+				7EC403911FA86B7C008E1E31 /* Resources */,
+				603C03F7E21AB46923FCDD7A /* [CP] Embed Pods Frameworks */,
+				529CA5B2C34E34A0C6725462 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewNestTableview;
+			productName = CollectionViewNestTableview;
+			productReference = 7EC403931FA86B7C008E1E31 /* CollectionViewNestTableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EC403AB1FA86B7C008E1E31 /* CollectionViewNestTableviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC403C31FA86B7C008E1E31 /* Build configuration list for PBXNativeTarget "CollectionViewNestTableviewTests" */;
+			buildPhases = (
+				7EC403A81FA86B7C008E1E31 /* Sources */,
+				7EC403A91FA86B7C008E1E31 /* Frameworks */,
+				7EC403AA1FA86B7C008E1E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC403AE1FA86B7C008E1E31 /* PBXTargetDependency */,
+			);
+			name = CollectionViewNestTableviewTests;
+			productName = CollectionViewNestTableviewTests;
+			productReference = 7EC403AC1FA86B7C008E1E31 /* CollectionViewNestTableviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EC403B61FA86B7C008E1E31 /* CollectionViewNestTableviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC403C61FA86B7C008E1E31 /* Build configuration list for PBXNativeTarget "CollectionViewNestTableviewUITests" */;
+			buildPhases = (
+				7EC403B31FA86B7C008E1E31 /* Sources */,
+				7EC403B41FA86B7C008E1E31 /* Frameworks */,
+				7EC403B51FA86B7C008E1E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC403B91FA86B7C008E1E31 /* PBXTargetDependency */,
+			);
+			name = CollectionViewNestTableviewUITests;
+			productName = CollectionViewNestTableviewUITests;
+			productReference = 7EC403B71FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC4038B1FA86B7C008E1E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZYY;
+				TargetAttributes = {
+					7EC403921FA86B7C008E1E31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7EC403AB1FA86B7C008E1E31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC403921FA86B7C008E1E31;
+					};
+					7EC403B61FA86B7C008E1E31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC403921FA86B7C008E1E31;
+					};
+				};
+			};
+			buildConfigurationList = 7EC4038E1FA86B7C008E1E31 /* Build configuration list for PBXProject "CollectionViewNestTableview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC4038A1FA86B7C008E1E31;
+			productRefGroup = 7EC403941FA86B7C008E1E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EC403921FA86B7C008E1E31 /* CollectionViewNestTableview */,
+				7EC403AB1FA86B7C008E1E31 /* CollectionViewNestTableviewTests */,
+				7EC403B61FA86B7C008E1E31 /* CollectionViewNestTableviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EC403911FA86B7C008E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC403A61FA86B7C008E1E31 /* LaunchScreen.storyboard in Resources */,
+				7EC403A31FA86B7C008E1E31 /* Assets.xcassets in Resources */,
+				7EC403A11FA86B7C008E1E31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC403AA1FA86B7C008E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC403B51FA86B7C008E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		529CA5B2C34E34A0C6725462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionViewNestTableview/Pods-CollectionViewNestTableview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A881F6B3B74431BEF88D868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewNestTableview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603C03F7E21AB46923FCDD7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionViewNestTableview/Pods-CollectionViewNestTableview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC4038F1FA86B7C008E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC403CC1FA87521008E1E31 /* OrderModel.m in Sources */,
+				7EC403D51FA97CF4008E1E31 /* FoodTableViewCell.m in Sources */,
+				7EC4039E1FA86B7C008E1E31 /* ViewController.m in Sources */,
+				7EC4039B1FA86B7C008E1E31 /* AppDelegate.m in Sources */,
+				7EC403981FA86B7C008E1E31 /* main.m in Sources */,
+				7EC403CF1FA87530008E1E31 /* FoodModel.m in Sources */,
+				7EC403D21FA87EFD008E1E31 /* OrderCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC403A81FA86B7C008E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC403B11FA86B7C008E1E31 /* CollectionViewNestTableviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC403B31FA86B7C008E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC403BC1FA86B7C008E1E31 /* CollectionViewNestTableviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EC403AE1FA86B7C008E1E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC403921FA86B7C008E1E31 /* CollectionViewNestTableview */;
+			targetProxy = 7EC403AD1FA86B7C008E1E31 /* PBXContainerItemProxy */;
+		};
+		7EC403B91FA86B7C008E1E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC403921FA86B7C008E1E31 /* CollectionViewNestTableview */;
+			targetProxy = 7EC403B81FA86B7C008E1E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EC4039F1FA86B7C008E1E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC403A01FA86B7C008E1E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC403A41FA86B7C008E1E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC403A51FA86B7C008E1E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EC403BE1FA86B7C008E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EC403BF1FA86B7C008E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC403C11FA86B7C008E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7329DA628F2996E74D2C235D /* Pods-CollectionViewNestTableview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollectionViewNestTableview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haofengsoft.CollectionViewNestTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EC403C21FA86B7C008E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101624A1A7AD234B1679C04F /* Pods-CollectionViewNestTableview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollectionViewNestTableview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haofengsoft.CollectionViewNestTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EC403C41FA86B7C008E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollectionViewNestTableviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haofengsoft.CollectionViewNestTableviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectionViewNestTableview.app/CollectionViewNestTableview";
+			};
+			name = Debug;
+		};
+		7EC403C51FA86B7C008E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollectionViewNestTableviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haofengsoft.CollectionViewNestTableviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectionViewNestTableview.app/CollectionViewNestTableview";
+			};
+			name = Release;
+		};
+		7EC403C71FA86B7C008E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollectionViewNestTableviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haofengsoft.CollectionViewNestTableviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollectionViewNestTableview;
+			};
+			name = Debug;
+		};
+		7EC403C81FA86B7C008E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollectionViewNestTableviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haofengsoft.CollectionViewNestTableviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollectionViewNestTableview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC4038E1FA86B7C008E1E31 /* Build configuration list for PBXProject "CollectionViewNestTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC403BE1FA86B7C008E1E31 /* Debug */,
+				7EC403BF1FA86B7C008E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC403C01FA86B7C008E1E31 /* Build configuration list for PBXNativeTarget "CollectionViewNestTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC403C11FA86B7C008E1E31 /* Debug */,
+				7EC403C21FA86B7C008E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC403C31FA86B7C008E1E31 /* Build configuration list for PBXNativeTarget "CollectionViewNestTableviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC403C41FA86B7C008E1E31 /* Debug */,
+				7EC403C51FA86B7C008E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC403C61FA86B7C008E1E31 /* Build configuration list for PBXNativeTarget "CollectionViewNestTableviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC403C71FA86B7C008E1E31 /* Debug */,
+				7EC403C81FA86B7C008E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EC4038B1FA86B7C008E1E31 /* Project object */;
+}
